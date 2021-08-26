@@ -1,9 +1,3 @@
-<html>
-<head>
-<script src="/brython.js"></script>
-</head>
-<body onload="brython()">
-<script type="text/python">
 try:
     import string
     import sys
@@ -100,6 +94,5 @@ try:
 except:
     print('Error')
     time.sleep(5)
-</script>
-</body>
-</html>
+
+
